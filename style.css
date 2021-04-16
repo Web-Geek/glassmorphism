@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Scene-24.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+}
+.container{
+    width: 500px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.1) !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+.text{
+    color: rgba(255, 255, 255, 0.95);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .8px;
+    font-size: 1.1rem;
+    text-align: left;
+
+}
+.heading{
+    color: rgba(31, 31, 31, 0.8);
+    font-family: 'Poppins', sans-serif;
+}
+
